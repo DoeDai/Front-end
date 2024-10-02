@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Configuration - CESS AI-LINK</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container text-center">
+            <h1 class="animate__animated animate__fadeInDown">Node Configuration</h1>
+            <p class="lead animate__animated animate__fadeInUp">Set Up Your Node for CESS AI-LINK</p>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main-section text-center">
+        <div class="container">
+            <h2 class="mb-4">Configure Your Node</h2>
+            <form id="config-form">
+                <!-- Dataset Address -->
+                <div class="mb-3">
+                    <label for="dataset-address" class="form-label">Dataset Address</label>
+                    <input type="text" class="form-control" id="dataset-address" placeholder="Enter Dataset Address">
+                </div>
+
+                <!-- Performance Settings -->
+                <div class="mb-3">
+                    <label for="performance-settings" class="form-label">Performance Settings</label>
+                    <input type="text" class="form-control" id="performance-settings" placeholder="Enter Performance Settings">
+                </div>
+
+                <!-- Other Configurations -->
+                <div class="mb-3">
+                    <label for="other-settings" class="form-label">Other Configurations</label>
+                    <input type="text" class="form-control" id="other-settings" placeholder="Enter Other Configurations">
+                </div>
+
+                <a href="training-progress.html" class="btn btn-success btn-lg">
+                    <i class="fas fa-play-circle"></i> Initialize Node
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2024 AI-LINK - Decentralized AI Training</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
