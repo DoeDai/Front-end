@@ -58,17 +58,23 @@
                         <div class="col-md-4">
                             <i class="fas fa-shield-alt feature-icon"></i>
                             <h4>Data Privacy</h4>
-                            <p>AI-LINK enables AI model training without exposing sensitive data, protecting data sovereignty and privacy at all times.</p>
+                            <div class="transation">
+                                <p>AI-LINK enables AI model training without exposing sensitive data, protecting data sovereignty and privacy at all times.</p>
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <i class="fas fa-network-wired feature-icon"></i>
                             <h4>Decentralized Computation</h4>
+                            <div class="transation">
                             <p>Leverage decentralized computational power across CESS nodes for efficient AI model training with high-performance GPUs.</p>
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <i class="fas fa-lock feature-icon"></i>
                             <h4>Smart Contract Security</h4>
-                            <p>Automated task management with tamper-proof smart contracts ensures transparency and trust within the decentralized network.</p>
+                            <div class="transation">
+                                <p>Automated task management with tamper-proof smart contracts ensures transparency and trust within the decentralized network.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -79,9 +85,21 @@
             <br>
             <br>
             <h2>Architecture</h2>
-            <div class="mt-3">
-                <img src="AI-LINK_Architecture.png" alt="Architecture">
-            </div>
+            <section id="team" class="team-section2 py-5">
+                <div class="mt-2 position-relative">
+                    <img src="Blank diagram 1.svg" alt="Architecture" class="team-image">
+                    <div class="description-container hidden-description">
+                        <p>The Architecture of AI-LINK</p>
+                        <ol>
+                            <li><strong>Clients:</strong> Clients initiate the process by performing local model training on their devices (Step 1) using their private data. This data is never shared directly; instead, an encrypted hash of the data is created and submitted to the smart contract on blockchain (Step 2). Then, clients submit their encrypted data to the server directly (Step 3).</li>
+                            <li><strong>Server:</strong> The server requests the local model proof from the smart contract (Step 4), and upon receiving acknowledgment (Step 5), it begins training a global model using the submitted encrypted data (Step 6). Once the global model is trained, a hash proof of the global model is submitted back to the smart contract (Step 7).</li>
+                            <li><strong>Blockchain and Smart Contract:</strong> The blockchain acts as the mediator and verifier. It receives encrypted data hash proof from the clients (Step 2) and manages the proof requests and acknowledgments between clients and the server. Once the global model is verified, it is distributed to the clients (Step 8), who can request and acknowledge the global model proof (Steps 9 and 10).</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            
+            
             <br>
             <br>
             <br>
@@ -101,6 +119,9 @@
                                 <img src="Kwuaint.jpg" alt="Team Member 1" class="img-fluid rounded-circle">
                                 <h4 class="mt-3">Kwuaint Lee</h4>
                                 <p>Project Manager</p>
+                                <div class="transation">
+                                    <p>Kwuaint focuses on encryption algorithms, distributed storage applications, AI, and blockchain technologies.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- Team Member 2 -->
@@ -109,6 +130,9 @@
                                 <img src="Yeou.jpg" alt="Team Member 2" class="img-fluid rounded-circle">
                                 <h4 class="mt-3">Yeou Sunn Liu</h4>
                                 <p>Full-stack Engineer</p>
+                                <div class="transation">
+                                    <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                                </div>
                             </div>
                         </div>
                         <!-- Team Member 3 -->
@@ -117,6 +141,9 @@
                                 <img src="Tony.jpg" alt="Team Member 3" class="img-fluid rounded-circle">
                                 <h4 class="mt-3">Tony Dai</h4>
                                 <p>Front-end Developer</p>
+                                <div class="transation">
+                                    <p>Just to make up the numbers.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
